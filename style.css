@@ -18,8 +18,7 @@ nav {
   max-width:1200px;
   margin:auto;
   padding: 12px 0;
-    max-width:1200px;
-  margin:auto;
+  
 
 
 }
@@ -50,7 +49,7 @@ nav {
   cursor:pointer;
 
 }
-
+ /* Common Button ends */
 .logo{
     font-width: bold;
     font-size: 32px; 
@@ -62,7 +61,7 @@ ul{
   display:flex;
   justify-content: space-between;
   list-style:none;
-  gap:10px;
+  gap:30px;
   align-items: center;
 
 }
@@ -132,3 +131,44 @@ ul li a{
 .box h2{
     font-size: 0.8 rem;
 }
+
+/* What I do css */
+
+.what-i-do-parent{
+     margin: 80px auto;
+     text-align: center;
+
+ }
+ .what-i-do-parent p{
+
+  width: 60%;
+  margin: 60px auto; 
+
+ }
+ .what-i-do-container, .summary-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content:center;
+  
+ }
+ .what-i-do{
+    
+   gap: 20px;
+
+ }
+ .what-i-do img {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+
+}
+
+/* summary section */
+
+.summary-parent{
+
+    margin: 80px auto;
+     text-align: center;
+}
+
+
